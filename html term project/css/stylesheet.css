@@ -1,0 +1,62 @@
+body{
+    font-family: Verdana, Geneva, sans-serif;
+    background-image: url("../img/nationalday1.png");
+    background-size:100vw;
+    font-size: 15px;
+
+}
+.navbar{
+    border:solid #fa3636;
+    font-size:15px;
+    position:sticky;
+    top: 0px;
+    background-color: white;
+}
+.navbar th{
+    border:solid black;
+    padding:5px;
+   
+}
+.active{ 
+    background-color:#f7b0b0;
+}
+.footer{
+    background-color:#ffffff;
+    padding-top: 10px;  
+    padding-bottom: 10px;
+    position:relative;
+}
+.td{
+    float: right;
+}
+.intro{
+    width:900px;
+}
+.picture{
+    float:right;
+    margin: 10px;
+}
+.header{
+    text-align:center;
+    font-size: 40px;
+    border: 3px solid #fa3636;
+    background-color: white;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color:#000000;	
+    padding:5px;
+    background-color: #FFFAFF
+}
+.dropdown:hover .dropdown-content{
+    display : block;
+    box-shadow: 5px 5px 12px;
+}
+#map{
+    width: 200px;
+    border: 1px solid black
+}
